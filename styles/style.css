@@ -1,54 +1,71 @@
 /* common shared styles here */
-*{
-    /* margin: 0; */
-}
-header{
+header {
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-body{
 
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+body {
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
 
 }
+
+/* main part styles */
+main {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+}
+
 /* nav releted styles */
-.nav-content{
+
+.nav-content {
     margin-left: 0;
 }
-nav{
-    
+
+nav {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 50px 180px 20px 0px;
     padding-left: 150px;
 }
-.nav-title{
+
+.nav-title {
     color: #181818;
     font-family: open sans;
     font-size: 45px;
     font-weight: 800;
 }
-.text-orange{
+
+.text-orange {
     color: #FD6E0A;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 40px;
     padding-left: 0;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background-color: #FD6E0A;
     font-size: 20px;
@@ -57,29 +74,33 @@ nav a{
     border: 0;
     padding: 15px 35px;
 }
-.banner{
+
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     margin-left: 0;
-    
+
 }
 
-.banner .profile-pic{
+.banner .profile-pic {
     width: 500px;
     margin-left: 200px;
 }
-.banner-grettings{
+
+.banner-grettings {
     font-size: 45px;
     color: #474747;
     margin-bottom: 0;
 }
-.banner-title{
+
+.banner-title {
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
 }
-.banner-description{
+
+.banner-description {
     max-width: 450px;
     font-size: 18px;
     color: #757575;
@@ -88,20 +109,65 @@ nav a{
 /* about me styles */
 /* section titles styles */
 
-.about{
+.about {
     padding: 130px;
     background-color: #FFF8F3;
     border-radius: 10px;
-    margin: 130px 130px;
+    margin: 130px;
 }
-.section-title{
+
+.section-title {
     color: #181818;
     font-size: 35px;
     font-weight: 700;
     text-align: center;
 }
-.section-description{
+
+.section-description {
     font-size: 18px;
     color: #757575;
     text-align: center;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+/* what I do styles start */
+#what-i-do {
+    padding: 30px 150px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #c7dce6;
+    box-shadow: 0px 6px 50px 0px rgb(24, 24, 224) rgb(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    font-size: 18px;
+    color: #332f2f;
+    text-align: center;
+}
+
+/* what I do styels end */
+
+/* Resume Styles */
+.resume-container{
+    display: flex;
+    justify-content: space-around;
+}
+.resume-column{
+    /* justify-content: space-around; */
 }
